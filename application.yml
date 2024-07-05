@@ -6,6 +6,8 @@ eureka:
       defaultZone: http://localhost:8761/eureka
   instance:
     prefer-ip-address: true
-
-server:
-  port: 8088
+spring:
+ application:
+   name: Customer-ServiceX
+ config:
+   import: optional:configserver:http://localhost:8084
