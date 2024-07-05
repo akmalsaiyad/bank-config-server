@@ -9,3 +9,7 @@ eureka:
 
 server:
   port: 8085
+
+spring:
+  application:
+    name: Account-Service-From-Config
