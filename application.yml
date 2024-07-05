@@ -8,8 +8,4 @@ eureka:
     prefer-ip-address: true
 
 server:
-  port: 8085
-
-spring:
-  application:
-    name: Account-Service-From-Config
+  port: 8087
